@@ -1,0 +1,7 @@
+Linha 4 e 7: O atributo codigo é do tipo int, mas tenta receber a String "A100" sem o operador de atribuição =
+Linha 8: Erro de sintaxe na atribuição (nome nome;). O correto seria usar this.nome = nome;
+Linha 12: Erro de sintaxe na expressão matemática da redução do preço por falta de operador de atribuição
+Linha 13: O método aplicarDesconto é estático, portanto não pode acessar o atributo de instância nome diretamente   
+Linha 16 e 17: O método setCodigo tenta modificar a variável codigo, que foi declarada como constante (final)
+Linha 20: O método getPreco() foi declarado com retorno void, mas tenta retornar um double
+Linhas 27 e 28: Tentativa de acesso direto ao atributo private (preco) e modificação de atributo final (codigo) no método main, além da ausência do operador =
